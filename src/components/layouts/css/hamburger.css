@@ -1,0 +1,32 @@
+@media only screen and (max-width: 480px) {
+
+.hamburger {
+  padding: 15px;
+  display: block;
+}
+
+  .line {
+    border-bottom: 4px solid #bbb;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+  
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li {
+    width: 100%;
+  }
+  
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+  
+  .slide-down {
+    height: 275px;
+  }
+
+}
