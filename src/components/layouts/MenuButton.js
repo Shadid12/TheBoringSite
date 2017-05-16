@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './css/hamburger.css';
-import './css/hovernav.css';
 import $ from 'jquery';
 
 export class MenuButton extends Component {

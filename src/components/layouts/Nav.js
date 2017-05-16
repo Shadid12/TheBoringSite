@@ -53,14 +53,14 @@ export class NavButtons extends Component {
         return(
             <ol className="site-nav">
               <li className="site-nav__item">
-                <a className="site-nav__link" href="#">
+                <a className="site-nav__link" href="/">
                     <img src={homeIcon} alt="Home" style={ { "width": 50, "height": 50 } } />
                     <br />
                     Home
                 </a>
               </li>
               <li className="site-nav__item">
-                <a className="site-nav__link" href="#">
+                <a className="site-nav__link" href="/components">
                     <img src={browser} alt="Home" style={ { "width": 50, "height": 50 } } />
                     <br />
                     Components

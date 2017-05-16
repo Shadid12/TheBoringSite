@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Nav } from './components/layouts/Nav';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { Home } from './components/Home';
+import { ComponentList } from './components/ComponentList';
 
 
 class App extends Component {
@@ -7,9 +10,13 @@ class App extends Component {
   
   render() {
     return (
-      <div className="container">
-        <Nav />
-      </div>
+      <BrowserRouter >
+        <div className="container">
+          <Nav />
+          <Route path="/" component={ Home } />
+          <Route path="/components" component={ ComponentList } />
+        </div>
+      </BrowserRouter>
     );
   }
 }
